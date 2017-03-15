@@ -51,9 +51,9 @@
           <!--
               过滤掉不希望包含在jar中的文件
           -->
-          <!--<excludes>-->
-          <!--<exclude>${project.basedir}/xml/*</exclude>-->
-          <!--</excludes>-->
+          <excludes>
+            <exclude>**/config/</exclude>
+          </excludes>
         </configuration>
       </plugin>
 
